@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <header id="navbar">
+        <h2>Eliseu Ferreira</h2>
+        <nav>
+            <ul id="navbar-list">
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#jobs">Projetos</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- fim navbar -->
+
+    <main>
+        <!-- Banner inicio-->
+        <div id="main-banner">
+            <div id="banner-info">
+                <h1> Olá, eu sou Eliseu</h1>
+                <p>Bem-Vindo ao meu Portfólio</p>
+                <img src="/img/eu.jpeg" alt="Eliseu Daniel">
+            </div>
+        </div>
+        <!--Fim Banner -->
+        <!-- about inicio -->
+        <section id="Sobre">
+            <h2>Sobre</h2>
+            <p>Sou técnico de informatica, formado pela ETEC SP, em 2017, no curso aprendi algumas Linguagens como: C#, PHP,
+                HTML; MySQL. Voltei a estudar programação à alguns meses e me interessei por JavaScript e na carreira Front-End.</p>
+        </section>
+        <!--about fim-->
+    </main>
+    <!--jobs inicio-->
+    <section id="jobs">
+        <h2>Veja meus últimos trabalhos:</h2>
+        <p>Aqui estão os meus trabalhos recentes.</p>
+        <div class="job-container">
+            <div class="job-box proj1"></div>
+            <div class="job-box proj2"></div>
+            <div class="job-box proj3"></div>
+        </div>
+    </section>
+    <!--jobs fim-->
+    <!--footer inicio-->
+    <footer id="footer">
+        <h2>Me mande uma mensagem</h2>
+        <p>Caso queira falar sobre algum projeto, me contratar para algum serviço.</p>
+        <img src="img/icone.png" alt="Perfil Ninja">
+        <form action="https://formsubmit.co/eliseudaniel29@gmail.com" method="post">
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="msg" placeholder="Digite uma mensagem" required></textarea>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html"> <!--quando tiver on, colocar o link do site dps do http-->
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Desenvolvido por <span class="detail">Eliseu Ferreira</span></p>
+    </footer>
+    <!--footer fim-->
+
+</body>
+</html>
