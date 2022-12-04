@@ -203,3 +203,39 @@ footer .detail {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 425px) {
+
+#banner-info p{
+    background-color: #413c3d;
+    font-weight: bold;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    }
+
+#navbar h2 {
+        font-size: 20px;
+    }
+
+#navbar li{
+        margin: 0 5px;
+    }
+
+#Sobre p {
+    margin-right: 20px;
+    margin-left: 20px;
+    line-height: 50px;
+}
+
+.job-box {
+    flex: 1 1 500px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 90px;
+    background-size: cover;
+    border-right: 2px solid #ED1E24;
+    border-bottom: 2px solid #ED1E24;
+}
+
+}
